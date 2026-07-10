@@ -73,7 +73,7 @@ document.querySelector('.filters').addEventListener('click', event => {
   renderJobs();
 });
 
-fetch('./data/jobs.json', { cache: 'no-store' })
+fetch(`./data/jobs.json?v=${Date.now()}`, { cache: 'no-store' })
   .then(response => response.json())
   .then(data => {
     state.jobs = data.jobs || [];

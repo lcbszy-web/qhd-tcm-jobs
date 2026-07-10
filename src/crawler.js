@@ -79,7 +79,7 @@ function isOpeningNotice(title) {
 }
 
 function isQinhuangdaoRelevantTitle(title) {
-  return /(秦皇岛|山海关|北戴河|抚宁|昌黎|卢龙|青龙|河北港口集团|秦皇岛港口医院)/.test(title);
+  return /(秦皇岛|海港区|开发区|山海关|北戴河|抚宁|昌黎|卢龙|青龙|河北港口集团|秦皇岛港口医院)/.test(title);
 }
 
 function employerCategory(text) {
@@ -262,6 +262,7 @@ async function crawlWechatSearch() {
     '秦皇岛 康养 中药学 招聘',
     '秦皇岛 事业单位 中药学 招聘',
     '秦皇岛 医疗卫生 中药学 招聘',
+    '秦皇岛 海港区 开发区 北戴河新区 中药学 招聘',
     '山海关 抚宁 昌黎 卢龙 青龙 中药学 招聘'
   ];
   const browserHeaders = {
@@ -310,6 +311,7 @@ async function crawlWebSearch() {
     '秦皇岛 康养 中药学 招聘',
     '秦皇岛 政府 事业单位 中药学 招聘',
     '秦皇岛 学校 中药学 招聘',
+    '秦皇岛 海港区 开发区 北戴河新区 中药学 招聘',
     '山海关 抚宁 昌黎 卢龙 青龙 中药学 招聘'
   ];
   const browserHeaders = {
