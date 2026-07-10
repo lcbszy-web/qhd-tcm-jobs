@@ -1,0 +1,19 @@
+{
+  "name": "qhd-tcm-jobs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "秦皇岛全行业中药学专业招聘每日汇总 PWA",
+  "scripts": {
+    "start": "node src/server.js",
+    "refresh": "node src/crawler.js",
+    "check": "node --check src/server.js && node --check src/crawler.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "iconv-lite": "0.6.3",
+    "xlsx": "0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

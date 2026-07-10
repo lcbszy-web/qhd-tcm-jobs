@@ -1,0 +1,406 @@
+{
+  "initializedAt": "2026-07-10T09:39:23.052Z",
+  "updatedAt": "2026-07-10T13:39:54.507Z",
+  "sources": [
+    {
+      "name": "秦皇岛市第一医院",
+      "ok": true,
+      "matched": 1,
+      "checkedAt": "2026-07-10T13:38:43.204Z"
+    },
+    {
+      "name": "秦皇岛市第二医院",
+      "ok": true,
+      "matched": 0,
+      "checkedAt": "2026-07-10T13:38:47.525Z"
+    },
+    {
+      "name": "秦皇岛市卫健委",
+      "ok": true,
+      "matched": 0,
+      "checkedAt": "2026-07-10T13:38:58.177Z"
+    },
+    {
+      "name": "秦皇岛市人社局",
+      "ok": true,
+      "matched": 0,
+      "checkedAt": "2026-07-10T13:38:59.034Z"
+    },
+    {
+      "name": "秦皇岛市妇幼保健院",
+      "ok": true,
+      "matched": 1,
+      "checkedAt": "2026-07-10T13:39:43.450Z"
+    },
+    {
+      "name": "秦皇岛市九龙山医院",
+      "ok": true,
+      "matched": 0,
+      "checkedAt": "2026-07-10T13:39:46.347Z"
+    },
+    {
+      "name": "秦皇岛市工人医院",
+      "ok": true,
+      "matched": 0,
+      "checkedAt": "2026-07-10T13:39:48.934Z"
+    },
+    {
+      "name": "微信公众号搜索",
+      "ok": true,
+      "matched": 9,
+      "checkedAt": "2026-07-10T13:39:50.219Z"
+    },
+    {
+      "name": "公开网页招聘平台搜索",
+      "ok": true,
+      "matched": 1,
+      "checkedAt": "2026-07-10T13:39:54.496Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "fb2e4b1ddd929bb811ea",
+      "title": "秦皇岛市抚宁区人民医院2026年度院内聘用人员招聘信息",
+      "source": "秦皇岛市抚宁区人民医院",
+      "sourceKind": "verified-repost",
+      "url": "https://fenbi.com/page/fenxiaozhaokaodetail/16/0/465798290229248",
+      "publishedDate": "2026-04-21",
+      "firstSeenDate": "2026-04-21",
+      "deadline": "2026-04-27",
+      "status": "closed",
+      "match": "strict",
+      "summary": "岗位：中药师；人数：1人；学历：全日制大学本科及以上学历；专业：中药学",
+      "evidence": "中药师1人，要求全日制大学本科及以上学历，中药学专业。报名时间：2026年4月21日-2026年4月27日。",
+      "fetchedAt": "2026-07-10T13:39:54.498Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛市抚宁区人民医院",
+          "url": "https://fenbi.com/page/fenxiaozhaokaodetail/16/0/465798290229248",
+          "sourceKind": "verified-repost"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "6cdd55dd1a987811b71f",
+      "title": "【本科起】北京中医药大学东方医院秦皇岛医院公立三甲招聘公告,招聘30人",
+      "source": "康强医疗人才网院招",
+      "sourceKind": "wechat-index",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%9C%AC%E7%A7%91%E8%B5%B7%E3%80%91%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%8C%BB%E9%99%A2%E5%85%AC%E7%AB%8B%E4%B8%89%E7%94%B2%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A%2C%E6%8B%9B%E8%81%9830%E4%BA%BA",
+      "publishedDate": "2026-03-31",
+      "firstSeenDate": "2026-03-31",
+      "deadline": null,
+      "status": "closed",
+      "match": "strict",
+      "summary": "人数：30人；学历：本科；专业：中药学",
+      "evidence": "【本科起】北京中医药大学东方医院秦皇岛医院公立三甲招聘公告,招聘30人 “秦皇岛市卫生健康委员会wjw.qhd.gov.cn”和各招聘单位网站公... 心血管科、护理学、中药学、儿科、针灸科、骨伤科、外科等为市...",
+      "fetchedAt": "2026-07-10T13:39:50.120Z",
+      "alternatives": [
+        {
+          "source": "康强医疗人才网院招",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%9C%AC%E7%A7%91%E8%B5%B7%E3%80%91%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%8C%BB%E9%99%A2%E5%85%AC%E7%AB%8B%E4%B8%89%E7%94%B2%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A%2C%E6%8B%9B%E8%81%9830%E4%BA%BA",
+          "sourceKind": "wechat-index"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "a5a06ea2c50769b57c34",
+      "title": "河北港口集团秦皇岛中西医结合医院2026年招聘药学部中药师",
+      "source": "河北港口集团秦皇岛中西医结合医院",
+      "sourceKind": "official-wechat",
+      "url": "https://mp.weixin.qq.com/s/GeyasHSPz4QLiQm2_S4axw",
+      "publishedDate": "2026-03-05",
+      "firstSeenDate": "2026-03-05",
+      "deadline": null,
+      "status": "possible",
+      "match": "strict",
+      "summary": "岗位：药学部中药师；人数：2人；学历：硕士研究生及以上；专业：中药学、药物分析；2026届",
+      "evidence": "药学部中药师2人。学历：硕士研究生及以上。专业：中药学、药物分析。2026年应届毕业生，年龄一般不超过30周岁。报名时间：2026年3月5日至招满为止。邮箱：gkyyzzk@163.com，电话：0335-3453062，地址：秦皇岛市海港区东港路33号医院行政楼人事科。",
+      "fetchedAt": "2026-07-10T13:39:54.497Z",
+      "statusNote": "招满为止，投递前请电话确认是否仍有名额",
+      "alternatives": [
+        {
+          "source": "河北港口集团秦皇岛中西医结合医院",
+          "url": "https://mp.weixin.qq.com/s/GeyasHSPz4QLiQm2_S4axw",
+          "sourceKind": "official-wechat"
+        },
+        {
+          "source": "爱秦皇岛",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E8%BF%99%E5%AE%B6%E5%8C%BB%E9%99%A2%E5%85%AC%E5%BC%80%E6%8B%9B%E8%81%9837%E4%BA%BA",
+          "sourceKind": "wechat-index"
+        },
+        {
+          "source": "天中就创业",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%A4%A9%E4%B8%AD%7C%E6%8B%9B%E8%81%98%E3%80%91%E6%B2%B3%E5%8C%97%E6%B8%AF%E5%8F%A3%E9%9B%86%E5%9B%A2%E7%A7%A6%E7%9A%87%E5%B2%9B%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2%2C2026%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A!",
+          "sourceKind": "wechat-index"
+        },
+        {
+          "source": "护慧创享",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B2%B3%E5%8C%97%E3%80%91%E6%B2%B3%E5%8C%97%E6%B8%AF%E5%8F%A3%E9%9B%86%E5%9B%A2%E7%A7%A6%E7%9A%87%E5%B2%9B%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2%2C2026%E5%B9%B4%E6%8B%9B%E8%81%98",
+          "sourceKind": "wechat-index"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "d74d685f7d2d6090d8af",
+      "title": "【招聘】中药学、中药制药|非凡(秦皇岛)制药有限公司招聘",
+      "source": "北京中医药大学东方学院招就处",
+      "sourceKind": "wechat-index",
+      "employerCategory": "药企医药",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%8B%9B%E8%81%98%E3%80%91%E4%B8%AD%E8%8D%AF%E5%AD%A6%E3%80%81%E4%B8%AD%E8%8D%AF%E5%88%B6%E8%8D%AF%7C%E9%9D%9E%E5%87%A1(%E7%A7%A6%E7%9A%87%E5%B2%9B)%E5%88%B6%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%8B%9B%E8%81%98",
+      "publishedDate": "2026-01-26",
+      "firstSeenDate": "2026-07-10",
+      "deadline": null,
+      "status": "closed",
+      "match": "strict",
+      "summary": "专业：中药学",
+      "evidence": "【招聘】中药学、中药制药|非凡(秦皇岛)制药有限公司招聘 来源:北戴河新区人力资源市场编辑:张霞排版设计:张霞初审:李昕璐编审:招生就业处声明:以上信息均来源于网络,注意甄别....",
+      "fetchedAt": "2026-07-10T13:39:49.398Z",
+      "alternatives": [
+        {
+          "source": "北京中医药大学东方学院招就处",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%8B%9B%E8%81%98%E3%80%91%E4%B8%AD%E8%8D%AF%E5%AD%A6%E3%80%81%E4%B8%AD%E8%8D%AF%E5%88%B6%E8%8D%AF%7C%E9%9D%9E%E5%87%A1(%E7%A7%A6%E7%9A%87%E5%B2%9B)%E5%88%B6%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%8B%9B%E8%81%98",
+          "sourceKind": "wechat-index"
+        }
+      ]
+    },
+    {
+      "id": "79946f780d127a2c2385",
+      "title": "秦皇岛市2026年事业单位统一招聘—卢龙县乡镇卫生院药学（专技B）",
+      "source": "秦皇岛市人力资源和社会保障局",
+      "sourceKind": "official",
+      "url": "https://rsj.qhd.gov.cn/home/rNews/detail?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&id=1686",
+      "publishedDate": "2026-01-24",
+      "firstSeenDate": "2026-01-24",
+      "deadline": "2026-02-13",
+      "status": "closed",
+      "match": "strict",
+      "summary": "人数：1人；学历：专科及以上；专业：中药学",
+      "evidence": "卢龙县乡镇卫生院药学（专技B），岗位代码154006，招聘1人，专科及以上，专业包含（620302）中药学。报名截止日期：2026年2月13日。",
+      "fetchedAt": "2026-07-10T13:39:54.498Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛市人力资源和社会保障局",
+          "url": "https://rsj.qhd.gov.cn/home/rNews/detail?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&id=1686",
+          "sourceKind": "official"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "47ab9b9e4c1fa264d286",
+      "title": "秦皇岛市2026年事业单位统一招聘—抚宁区乡镇卫生院药剂（专技）",
+      "source": "秦皇岛市人力资源和社会保障局",
+      "sourceKind": "official",
+      "url": "https://rsj.qhd.gov.cn/home/rNews/detail?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&id=1686",
+      "publishedDate": "2026-01-24",
+      "firstSeenDate": "2026-01-24",
+      "deadline": "2026-02-13",
+      "status": "closed",
+      "match": "strict",
+      "summary": "岗位：药剂（专技）；人数：1人；学历：专科及以上；专业：中药学",
+      "evidence": "抚宁区乡镇卫生院、社区卫生服务中心药剂（专技），岗位代码243006，招聘1人，专科及以上，专业包含（620302）中药学、（100801）中药学、（1008）中药学，具有药士及以上专业技术资格。报名截止日期：2026年2月13日。",
+      "fetchedAt": "2026-07-10T13:39:54.498Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛市人力资源和社会保障局",
+          "url": "https://rsj.qhd.gov.cn/home/rNews/detail?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&id=1686",
+          "sourceKind": "official"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "dddef247b469d3c54888",
+      "title": "秦皇岛市妇幼保健院2025年第二轮公开选聘工作人员公告",
+      "source": "秦皇岛市妇幼保健院",
+      "sourceKind": "official",
+      "url": "https://www.qhdfy.com.cn/article.php?id=4339",
+      "publishedDate": "2025-09-23",
+      "firstSeenDate": "2025-09-23",
+      "deadline": "2025-09-23",
+      "status": "closed",
+      "match": "strict",
+      "summary": "岗位：药剂科药师（专技）,25090；学历：硕士研究生；专业：中药学",
+      "evidence": "…执业医师执业证书；3.具有住院医师规范化培训合格证书；4.年龄30周岁及以下,选聘,0335-3852200,, 秦皇岛市卫生健康委员会,秦皇岛市妇幼保健院,差额,1,药剂科药师（专技）,250906,硕士研究生,硕士,中药学,1.应届高校毕业生；2.年龄30周岁及以下,选聘,0335-3852200,, 合计,,,6,,,,,,,,,,",
+      "fetchedAt": "2026-07-10T13:39:40.696Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛市妇幼保健院",
+          "url": "https://www.qhdfy.com.cn/article.php?id=4339",
+          "sourceKind": "official"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "1045ffce58c35698d17a",
+      "title": "秦皇岛市市直医疗卫生单位 2025年公开选聘工作人员公告",
+      "source": "秦皇岛市第一医院",
+      "sourceKind": "official",
+      "url": "https://www.qhdsdyyy.com/detial?category_id=301668&articleId=7756584",
+      "publishedDate": "2025-05-07",
+      "firstSeenDate": "2025-05-07",
+      "deadline": "2025-05-16",
+      "status": "closed",
+      "match": "strict",
+      "summary": "岗位：药剂科药师（专技）,25052；学历：硕士研究生；专业：中药学",
+      "evidence": "…有执业医师执业证书；3.具有住院医师规范化培训合格证书；4.年龄30周岁及以下,选聘,0335-3852200, 秦皇岛市卫生健康委员会,秦皇岛市妇幼保健院,差额,1,药剂科药师（专技）,250522,硕士研究生,硕士,中药学,1.应届高校毕业生；2.具有药师资格证书；3.年龄30周岁及以下,选聘,0335-3852200, 秦皇岛市卫生健康委员会,秦皇岛市妇幼保健院,差额,1,妇科医生（专技）,250523,硕士研究生,硕士,妇产科学,1.…",
+      "fetchedAt": "2026-07-10T13:38:30.060Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛市第一医院",
+          "url": "https://www.qhdsdyyy.com/detial?category_id=301668&articleId=7756584",
+          "sourceKind": "official"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "5bee2f30ce2d2c88d4a6",
+      "title": "秦皇岛中药师招聘 | 秦皇岛至全医院管理有限公司河北大街中医诊所 - ...",
+      "source": "公开网页搜索",
+      "sourceKind": "search-index",
+      "url": "https://www.sogou.com/web?ie=utf8&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E4%B8%AD%E8%8D%AF%E5%B8%88%E6%8B%9B%E8%81%98%20%7C%20%E7%A7%A6%E7%9A%87%E5%B2%9B%E8%87%B3%E5%85%A8%E5%8C%BB%E9%99%A2%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%B2%B3%E5%8C%97%E5%A4%A7%E8%A1%97%E4%B8%AD%E5%8C%BB%E8%AF%8A%E6%89%80%20-%20...",
+      "publishedDate": "2025-02-21",
+      "firstSeenDate": "2025-02-21",
+      "deadline": null,
+      "status": "closed",
+      "match": "review",
+      "summary": "岗位：药剂师证；专业：中药学",
+      "evidence": "…职称 药品调剂 药品质量管理 煎药 综合性医院/诊所 1.负责处方审查、中药调配。 2.负责中药药品出入库管理、药品数量密点、 常登记。 3.负责中药房药品及中药饮片的日常维护。 4.负责中药熬制、膏方等调配工作。 5.中药学专业.有中医药剂师证。 6.有1年及以上中药房工作经验,熟悉中药饮片 熬制、膏方制作流程等。 7.熟悉各种中药药材及中药禁忌",
+      "fetchedAt": "2026-07-10T13:35:47.917Z",
+      "alternatives": [
+        {
+          "source": "康强医疗人才网",
+          "url": "https://www.sogou.com/web?ie=utf8&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E4%B8%AD%E8%8D%AF%E5%B8%88%E6%8B%9B%E8%81%98%20%7C%20%E7%A7%A6%E7%9A%87%E5%B2%9B%E8%87%B3%E5%85%A8%E5%8C%BB%E9%99%A2%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%B2%B3%E5%8C%97%E5%A4%A7%E8%A1%97%E4%B8%AD%E5%8C%BB%E8%AF%8A%E6%89%80%20-%20...",
+          "sourceKind": "search-index"
+        }
+      ],
+      "employerCategory": "药企医药"
+    },
+    {
+      "id": "336ce472a8e0483a2d2d",
+      "title": "河北港口集团有限公司港口医院招聘中药学专业人员",
+      "source": "公众号",
+      "sourceKind": "search-index",
+      "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783690793&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqvkODa38f1pRakeYUWr11Sh-JZfSG7pCcmmZyE-jDkxGYo246iGAFXkluHU58o2NLag6nYCNrIQAb5QKuzMU27&new=1",
+      "publishedDate": "2024-02-06",
+      "firstSeenDate": "2024-02-06",
+      "deadline": null,
+      "status": "closed",
+      "match": "review",
+      "summary": "专业：中药学",
+      "evidence": "河北港口集团有限公司港口医院招聘中药学专业人员",
+      "fetchedAt": "2026-07-10T13:39:50.981Z",
+      "alternatives": [
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783675931&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*FgeyEjByzPl5r9D2c-BfdzR7CQKLauOxEAYqLxaiB4Uhqn7OEuoFheVMYBzdHvcVT5&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676027&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*Fg83yaOpDDiMV902HPtk4XTyn1u5jWvr6HxLxwgCTaCwiUk5crgbk1N8FF6d45gCj5&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676096&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*FgCNoAGumyIDw6Vj5r*5J3uoB4SyZH-dCtUvN6ODeBIrMrESgfzJUfznz85Kxee7Db&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676365&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*FghPYZSwmGVuFslOjLXJ4b50xRfYfW6S8POrOHVh*QVHdtAjJLqFJOIh47WdFB7D9k&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676518&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*FgSx5EbHxSyMI0um04LBEoz6j9WCmGZ76HrM4pzuZt6wLuQDTNPnIzKqbznBXxoVRG&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676612&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEq2oS63dpsj9zqh7wW95*FgUCAJEhRdL-5Aa54VFhou8LKlumRzt1j20ZDCwgRFaX0BZ3I6c*i7L9i9jWFhJGBy&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783688777&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuErm9su6*AYxMc-95hx8htYSrKpoD4Pb1eFVfc-XJ0bVUTMUJCmBzqP1j3D8Y1-G6dmnZA11Ui0o7kED3C95Hj5t&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783690547&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqvkODa38f1pRakeYUWr11SiWWtTLKguUsIS5*wwaHqHkrR9gkZ2NG0-*nBbLLS1uc3yDRAQZ-3LprGgcK7g-no&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783690793&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqvkODa38f1pRakeYUWr11Sh-JZfSG7pCcmmZyE-jDkxGYo246iGAFXkluHU58o2NLag6nYCNrIQAb5QKuzMU27&new=1",
+          "sourceKind": "search-index"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    },
+    {
+      "id": "ff623df4e82c15483560",
+      "title": "秦皇岛港口医院招聘中医学、中药学、中西医临床医学等专业毕业生公告",
+      "source": "北京中医药大学东方学院招就处",
+      "sourceKind": "wechat-index",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%B8%AF%E5%8F%A3%E5%8C%BB%E9%99%A2%E6%8B%9B%E8%81%98%E4%B8%AD%E5%8C%BB%E5%AD%A6%E3%80%81%E4%B8%AD%E8%8D%AF%E5%AD%A6%E3%80%81%E4%B8%AD%E8%A5%BF%E5%8C%BB%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6%E7%AD%89%E4%B8%93%E4%B8%9A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%85%AC%E5%91%8A",
+      "publishedDate": "2022-12-08",
+      "firstSeenDate": "2022-12-08",
+      "deadline": null,
+      "status": "closed",
+      "match": "strict",
+      "summary": "专业：中药学",
+      "evidence": "秦皇岛港口医院招聘中医学、中药学、中西医临床医学等专业毕业生公告 港口医院因发展需要,公开招聘卫生专业技术人员37名,现将有关... 16603393026报名地址:秦皇岛市海港区东山街57号港口医院办...",
+      "fetchedAt": "2026-07-10T13:39:50.119Z",
+      "alternatives": [
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783675927&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKcc8t-LF01GQdxqFdWRkIMYTkrMMbtS*Mc0ceDqkj1gwbXCJfX*SN0IVY3TqBqOxEWY&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676025&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKcc7Dtbepvk*usvucq01MluzB0fezZO4I1w8YxNRFQxgtt1PyItT6WYWjYu6lD24ZmF&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676094&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKccS*oVhjb2VHI-1sOtaUpbJuWqvXLZUb1Tjco4JPttBWFd1Hpv2veEjFlMPl-jeDza&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676362&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKcc3U6D1JcqhlV2ZwkMp65lmxOdRiAitxjYi71TdAWqvuqHwBdS-FkFn0ZIFzMLn6xo&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676516&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKccm8pwEC*XoA*hhhAhy*S9uco0gi2FH9dpwELSuOtRQLve1TDEFzF81EvwctN8g4VU&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "北京中医药大学东方学院招就处",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%B8%AF%E5%8F%A3%E5%8C%BB%E9%99%A2%E6%8B%9B%E8%81%98%E4%B8%AD%E5%8C%BB%E5%AD%A6%E3%80%81%E4%B8%AD%E8%8D%AF%E5%AD%A6%E3%80%81%E4%B8%AD%E8%A5%BF%E5%8C%BB%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6%E7%AD%89%E4%B8%93%E4%B8%9A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%85%AC%E5%91%8A",
+          "sourceKind": "wechat-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783676610&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqel5CgE2CTlRkls*sREKccsnrAMYQSfS*opiLKVPgJzLRouFhRNVxMKSUnCsHlqKIcz*ENYZDxgH2lqgldkkUx&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1783688775&ver=6834&signature=4Y3KdRsNVb2p1p0-n6*XM0oMwynrc4A-nGNylHHOuEqndgS74xXveEMJ4uqCRRc-urgEyaCLcrZhD0iKNucwwriO3YRqoCrQ5u20NOFrLk1*xegj2bzDI6mKX6kiYN1w&new=1",
+          "sourceKind": "search-index"
+        }
+      ],
+      "employerCategory": "医疗机构"
+    }
+  ]
+}

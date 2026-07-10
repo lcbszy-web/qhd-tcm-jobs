@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="description" content="每日汇总秦皇岛全行业中药学专业招聘信息">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>秦皇岛中药学招聘</title>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__orb"></div>
+    <p class="eyebrow">QINHUANGDAO · DAILY JOBS</p>
+    <h1>中药学招聘<br><span>每日简报</span></h1>
+    <p id="updated" class="updated">正在读取最新数据…</p>
+  </header>
+
+  <main>
+    <section id="summary" class="summary" aria-label="今日概览"></section>
+
+    <nav class="filters" aria-label="筛选招聘状态">
+      <button class="filter active" data-filter="all">全部</button>
+      <button class="filter" data-filter="open">在招线索</button>
+      <button class="filter" data-filter="unknown">待确认</button>
+      <button class="filter" data-filter="closed">已截止</button>
+    </nav>
+
+    <section>
+      <div class="section-title">
+        <div><span></span><h2 id="listTitle">最新匹配</h2></div>
+        <p id="count"></p>
+      </div>
+      <div id="jobs" class="jobs"></div>
+      <div id="empty" class="empty" hidden>
+        <div>✓</div>
+        <h3>今日暂无新增</h3>
+        <p>系统会继续检查官方招聘入口。</p>
+      </div>
+    </section>
+
+    <section class="rules">
+      <h2>筛选口径</h2>
+      <p>覆盖医院、疗养康养机构、政府事业单位、药企、药店药房、学校科研及其他秦皇岛用人单位。正文、岗位附件或公众号搜索摘要必须明确出现“中药学”；只写“药学”的岗位不会直接推送。</p>
+      <div id="sources"></div>
+    </section>
+  </main>
+
+  <template id="jobTemplate">
+    <article class="job-card">
+      <div class="job-card__top">
+        <span class="status"></span>
+        <time></time>
+      </div>
+      <h3></h3>
+      <p class="source"></p>
+      <p class="summary-text"></p>
+      <div class="evidence"></div>
+      <div class="job-card__bottom">
+        <span class="deadline"></span>
+        <a target="_blank" rel="noopener noreferrer">查看原公告 <b>↗</b></a>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
