@@ -1,5 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
+const { execFile } = require('node:child_process');
+const { promisify } = require('node:util');
 const cheerio = require('cheerio');
 const iconv = require('iconv-lite');
 const XLSX = require('xlsx');
@@ -18,7 +20,8 @@ const {
 const ROOT = path.resolve(__dirname, '..');
 const DATA_FILE = path.join(ROOT, 'data', 'jobs.json');
 const PUBLIC_DATA_FILE = path.join(ROOT, 'public', 'data', 'jobs.json');
-const USER_AGENT = 'QHD-TCM-Jobs/0.1 (+personal recruitment monitor)';
+const execFileAsync = promisify(execFile);
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/137.0 Safari/537.36';
 
 async function fetchResponse(url, options = {}) {
   const controller = new AbortController();
@@ -36,18 +39,38 @@ async function fetchResponse(url, options = {}) {
   }
 }
 
+async function curlBuffer(url, accept = '*/*') {
+  const executable = process.platform === 'win32' ? 'curl.exe' : 'curl';
+  const { stdout } = await execFileAsync(executable, [
+    '-k', '-sS', '-L', '--retry', '2', '--max-time', '30',
+    '-A', USER_AGENT, '-H', `Accept: ${accept}`, url
+  ], { encoding: 'buffer', maxBuffer: 30 * 1024 * 1024 });
+  return Buffer.isBuffer(stdout) ? stdout : Buffer.from(stdout);
+}
+
+async function fetchBuffer(url, options = {}) {
+  try {
+    const response = await fetchResponse(url, options);
+    return {
+      buffer: Buffer.from(await response.arrayBuffer()),
+      contentType: response.headers.get('content-type') || ''
+    };
+  } catch (error) {
+    console.warn(`  标准请求失败，使用兼容模式：${new URL(url).hostname} (${error.message})`);
+    return { buffer: await curlBuffer(url, options.accept), contentType: '' };
+  }
+}
+
 async function fetchText(url) {
-  const response = await fetchResponse(url, { accept: 'text/html,application/json' });
-  const buffer = Buffer.from(await response.arrayBuffer());
-  const header = response.headers.get('content-type') || '';
+  const { buffer, contentType } = await fetchBuffer(url, { accept: 'text/html,application/json' });
+  const header = contentType;
   const head = buffer.subarray(0, 2048).toString('latin1');
   const charset = `${header} ${head}`.match(/charset\s*=\s*["']?([\w-]+)/i)?.[1]?.toLowerCase();
   return /gb2312|gbk|gb18030/.test(charset || '') ? iconv.decode(buffer, 'gb18030') : buffer.toString('utf8');
 }
 
 async function fetchJson(url) {
-  const response = await fetchResponse(url, { accept: 'application/json' });
-  return response.json();
+  return JSON.parse(await fetchText(url));
 }
 
 function isOpeningNotice(title) {
@@ -108,8 +131,7 @@ async function attachmentText(html, baseUrl) {
   const texts = [];
   for (const url of links.slice(0, 4)) {
     try {
-      const response = await fetchResponse(url, { accept: 'application/vnd.ms-excel,*/*' });
-      const buffer = Buffer.from(await response.arrayBuffer());
+      const { buffer } = await fetchBuffer(url, { accept: 'application/vnd.ms-excel,*/*' });
       const workbook = XLSX.read(buffer, { type: 'buffer' });
       for (const name of workbook.SheetNames) {
         texts.push(XLSX.utils.sheet_to_csv(workbook.Sheets[name]));
