@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f766e">
+  <meta name="theme-color" content="#314f9b">
   <meta name="description" content="每日汇总秦皇岛全行业中药学专业招聘信息">
-  <link rel="manifest" href="./manifest.json">
-  <link rel="icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.json?v=4">
+  <link rel="icon" href="./icon.svg?v=4">
+  <link rel="stylesheet" href="./styles.css?v=4">
   <title>秦皇岛中药学招聘</title>
 </head>
 <body>
@@ -15,7 +15,10 @@
     <div class="hero__orb"></div>
     <p class="eyebrow">QINHUANGDAO · DAILY JOBS</p>
     <h1>中药学招聘<br><span>每日简报</span></h1>
-    <p id="updated" class="updated">正在读取最新数据…</p>
+    <div class="update-row">
+      <p id="updated" class="updated">正在读取最新数据…</p>
+      <button id="refresh" class="refresh" type="button">立即刷新</button>
+    </div>
     <p id="freshness" class="freshness" hidden></p>
   </header>
 
@@ -66,6 +69,6 @@
     </article>
   </template>
 
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=4" defer></script>
 </body>
 </html>
