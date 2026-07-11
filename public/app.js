@@ -13,6 +13,37 @@ const sourceLabels = {
   'search-index': '招聘平台线索'
 };
 
+function expectedCloudUpdate(now = Date.now()) {
+  const china = new Date(now + 8 * 60 * 60 * 1000);
+  const year = china.getUTCFullYear();
+  const month = china.getUTCMonth();
+  const day = china.getUTCDate();
+  const minutes = china.getUTCHours() * 60 + china.getUTCMinutes();
+  let hour = 18;
+  let minute = 30;
+  let dayOffset = -1;
+  if (minutes >= 18 * 60 + 30) {
+    dayOffset = 0;
+  } else if (minutes >= 12 * 60 + 30) {
+    hour = 12;
+    dayOffset = 0;
+  } else if (minutes >= 6 * 60 + 30) {
+    hour = 6;
+    dayOffset = 0;
+  }
+  return Date.UTC(year, month, day + dayOffset, hour - 8, minute);
+}
+
+function renderFreshness(updatedAt) {
+  const root = document.querySelector('#freshness');
+  const updated = new Date(updatedAt).getTime();
+  const expected = expectedCloudUpdate();
+  const grace = 45 * 60 * 1000;
+  const stale = Number.isFinite(updated) && Date.now() > expected + grace && updated < expected;
+  root.hidden = !stale;
+  root.textContent = stale ? '⚠ 云端更新延迟，系统将在下一次冗余任务自动重试' : '';
+}
+
 function formatDate(value) {
   if (!value) return '日期未知';
   const date = new Date(value.length === 10 ? `${value}T00:00:00+08:00` : value);
@@ -81,6 +112,7 @@ fetch(`./data/jobs.json?v=${Date.now()}`, { cache: 'no-store' })
     document.querySelector('#updated').textContent = data.updatedAt
       ? `最近更新 ${new Intl.DateTimeFormat('zh-CN', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(data.updatedAt))}`
       : '尚未执行首次抓取';
+    if (data.updatedAt) renderFreshness(data.updatedAt);
     renderSummary();
     renderJobs();
     renderSources(data.sources || []);

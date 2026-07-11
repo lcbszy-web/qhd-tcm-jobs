@@ -19,6 +19,8 @@ body { margin: 0; color: var(--ink); background: var(--paper); }
 h1 { position: relative; margin: 0; font-size: clamp(36px, 10vw, 54px); line-height: 1.04; letter-spacing: -.04em; }
 h1 span { color: #b7ebdd; font-weight: 400; }
 .updated { margin: 22px 0 0; font-size: 12px; opacity: .78; }
+.freshness { position: relative; display: inline-block; margin: 10px 0 0; padding: 7px 10px; color: #fff5d8; background: rgba(93, 51, 5, .35); border: 1px solid rgba(255, 230, 170, .35); border-radius: 9px; font-size: 11px; }
+.freshness[hidden] { display: none; }
 main { width: min(720px, 100%); margin: 0 auto; padding: 0 16px 50px; }
 .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; margin: -22px 5px 24px; position: relative; background: var(--line); border-radius: 20px; box-shadow: 0 12px 35px rgba(20, 50, 47, .12); }
 .summary div { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 18px 6px; background: var(--card); }

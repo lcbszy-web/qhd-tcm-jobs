@@ -2,3 +2,4 @@ node_modules/
 data/*.tmp
 *.log
 mobile-preview*.png
+freshness-preview.png
