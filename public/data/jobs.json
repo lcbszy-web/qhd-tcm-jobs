@@ -1,60 +1,60 @@
 {
   "initializedAt": "2026-07-10T09:39:23.052Z",
-  "updatedAt": "2026-07-29T12:33:05.632Z",
+  "updatedAt": "2026-07-29T23:35:49.526Z",
   "sources": [
     {
       "name": "秦皇岛市第一医院",
       "ok": true,
       "matched": 1,
-      "checkedAt": "2026-07-29T12:29:42.485Z"
+      "checkedAt": "2026-07-29T23:32:58.379Z"
     },
     {
       "name": "秦皇岛市第二医院",
       "ok": true,
       "matched": 0,
-      "checkedAt": "2026-07-29T12:30:27.412Z"
+      "checkedAt": "2026-07-29T23:33:28.269Z"
     },
     {
       "name": "秦皇岛市卫健委",
       "ok": true,
       "matched": 0,
-      "checkedAt": "2026-07-29T12:30:48.292Z"
+      "checkedAt": "2026-07-29T23:33:44.260Z"
     },
     {
       "name": "秦皇岛市人社局",
       "ok": false,
-      "error": "Command failed: curl -k -sS -L --retry 2 --max-time 30 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/137.0 Safari/537.36 -H Accept: text/html,application/json https://rsj.qhd.gov.cn/home/rNews/list?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&currentPage=1\ncurl: (28) Connection timed out after 30002 milliseconds\ncurl: (28) Connection timed out after 30002 milliseconds\ncurl: (28) Connection timed out after 30002 milliseconds\n",
-      "checkedAt": "2026-07-29T12:32:22.103Z"
+      "error": "Command failed: curl -k -sS -L --retry 2 --max-time 30 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/137.0 Safari/537.36 -H Accept: text/html,application/json https://rsj.qhd.gov.cn/home/rNews/list?code=cmpzTmV3cw%ce%b3%ce%b3&condition=cnNqTmV3c05vdGljZQ%ce%b3%ce%b3&currentPage=1\ncurl: (28) Connection timed out after 30002 milliseconds\ncurl: (28) Connection timed out after 30002 milliseconds\ncurl: (28) Connection timed out after 30001 milliseconds\n",
+      "checkedAt": "2026-07-29T23:35:18.274Z"
     },
     {
       "name": "秦皇岛市妇幼保健院",
       "ok": true,
       "matched": 0,
-      "checkedAt": "2026-07-29T12:32:30.381Z"
+      "checkedAt": "2026-07-29T23:35:20.809Z"
     },
     {
       "name": "秦皇岛市九龙山医院",
       "ok": true,
       "matched": 0,
-      "checkedAt": "2026-07-29T12:32:41.043Z"
+      "checkedAt": "2026-07-29T23:35:30.087Z"
     },
     {
       "name": "秦皇岛市工人医院",
       "ok": true,
       "matched": 0,
-      "checkedAt": "2026-07-29T12:32:48.441Z"
+      "checkedAt": "2026-07-29T23:35:32.483Z"
     },
     {
       "name": "微信公众号搜索",
       "ok": true,
-      "matched": 8,
-      "checkedAt": "2026-07-29T12:32:54.917Z"
+      "matched": 10,
+      "checkedAt": "2026-07-29T23:35:38.943Z"
     },
     {
       "name": "公开网页招聘平台搜索",
       "ok": true,
       "matched": 1,
-      "checkedAt": "2026-07-29T12:33:05.623Z"
+      "checkedAt": "2026-07-29T23:35:49.517Z"
     }
   ],
   "jobs": [
@@ -71,7 +71,7 @@
       "match": "strict",
       "summary": "岗位：中药师；人数：1人；学历：全日制大学本科及以上学历；专业：中药学",
       "evidence": "中药师1人，要求全日制大学本科及以上学历，中药学专业。报名时间：2026年4月21日-2026年4月27日。",
-      "fetchedAt": "2026-07-29T12:33:05.624Z",
+      "fetchedAt": "2026-07-29T23:35:49.518Z",
       "alternatives": [
         {
           "source": "秦皇岛市抚宁区人民医院",
@@ -94,7 +94,7 @@
       "match": "strict",
       "summary": "人数：30人；学历：本科；专业：中药学",
       "evidence": "【本科起】北京中医药大学东方医院秦皇岛医院公立三甲招聘公告,招聘30人 “秦皇岛市卫生健康委员会wjw.qhd.gov.cn”和各招聘单位网站公... 心血管科、护理学、中药学、儿科、针灸科、骨伤科、外科等为市...",
-      "fetchedAt": "2026-07-29T12:32:53.931Z",
+      "fetchedAt": "2026-07-29T23:35:37.966Z",
       "alternatives": [
         {
           "source": "康强医疗人才网院招",
@@ -117,7 +117,7 @@
       "match": "strict",
       "summary": "岗位：药学部中药师；人数：2人；学历：硕士研究生及以上；专业：中药学、药物分析；2026届",
       "evidence": "药学部中药师2人。学历：硕士研究生及以上。专业：中药学、药物分析。2026年应届毕业生，年龄一般不超过30周岁。报名时间：2026年3月5日至招满为止。邮箱：gkyyzzk@163.com，电话：0335-3453062，地址：秦皇岛市海港区东港路33号医院行政楼人事科。",
-      "fetchedAt": "2026-07-29T12:33:05.624Z",
+      "fetchedAt": "2026-07-29T23:35:49.518Z",
       "statusNote": "招满为止，投递前请电话确认是否仍有名额",
       "alternatives": [
         {
@@ -157,7 +157,7 @@
       "match": "strict",
       "summary": "专业：中药学",
       "evidence": "【招聘】中药学、中药制药|非凡(秦皇岛)制药有限公司招聘 来源:北戴河新区人力资源市场编辑:张霞排版设计:张霞初审:李昕璐编审:招生就业处声明:以上信息均来源于网络,注意甄别....",
-      "fetchedAt": "2026-07-29T12:32:51.465Z",
+      "fetchedAt": "2026-07-29T23:35:35.468Z",
       "alternatives": [
         {
           "source": "北京中医药大学东方学院招就处",
@@ -179,7 +179,7 @@
       "match": "strict",
       "summary": "人数：1人；学历：专科及以上；专业：中药学",
       "evidence": "卢龙县乡镇卫生院药学（专技B），岗位代码154006，招聘1人，专科及以上，专业包含（620302）中药学。报名截止日期：2026年2月13日。",
-      "fetchedAt": "2026-07-29T12:33:05.624Z",
+      "fetchedAt": "2026-07-29T23:35:49.518Z",
       "alternatives": [
         {
           "source": "秦皇岛市人力资源和社会保障局",
@@ -202,7 +202,7 @@
       "match": "strict",
       "summary": "岗位：药剂（专技）；人数：1人；学历：专科及以上；专业：中药学",
       "evidence": "抚宁区乡镇卫生院、社区卫生服务中心药剂（专技），岗位代码243006，招聘1人，专科及以上，专业包含（620302）中药学、（100801）中药学、（1008）中药学，具有药士及以上专业技术资格。报名截止日期：2026年2月13日。",
-      "fetchedAt": "2026-07-29T12:33:05.624Z",
+      "fetchedAt": "2026-07-29T23:35:49.518Z",
       "alternatives": [
         {
           "source": "秦皇岛市人力资源和社会保障局",
@@ -248,7 +248,7 @@
       "match": "strict",
       "summary": "岗位：药剂科药师（专技）,25052；学历：硕士研究生；专业：中药学",
       "evidence": "…有执业医师执业证书；3.具有住院医师规范化培训合格证书；4.年龄30周岁及以下,选聘,0335-3852200, 秦皇岛市卫生健康委员会,秦皇岛市妇幼保健院,差额,1,药剂科药师（专技）,250522,硕士研究生,硕士,中药学,1.应届高校毕业生；2.具有药师资格证书；3.年龄30周岁及以下,选聘,0335-3852200, 秦皇岛市卫生健康委员会,秦皇岛市妇幼保健院,差额,1,妇科医生（专技）,250523,硕士研究生,硕士,妇产科学,1.…",
-      "fetchedAt": "2026-07-29T12:29:22.983Z",
+      "fetchedAt": "2026-07-29T23:32:52.976Z",
       "alternatives": [
         {
           "source": "秦皇岛市第一医院",
@@ -295,11 +295,34 @@
       "match": "review",
       "summary": "学历：专科及以上学历；专业：中药学",
       "evidence": "秦皇岛招聘 | 秦皇岛维青医药有限公司(双休、五险一金) 招聘岗位中药库管,中药学相关专业,30岁以下,专科及以上学历,应届毕业生优先,双休,五险一金,待遇面议电话:7662223王女...",
-      "fetchedAt": "2026-07-28T07:24:53.545Z",
+      "fetchedAt": "2026-07-29T23:35:33.996Z",
       "alternatives": [
         {
           "source": "秦皇岛市招聘",
           "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%8B%9B%E8%81%98%20%7C%20%E7%A7%A6%E7%9A%87%E5%B2%9B%E7%BB%B4%E9%9D%92%E5%8C%BB%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8(%E5%8F%8C%E4%BC%91%E3%80%81%E4%BA%94%E9%99%A9%E4%B8%80%E9%87%91)",
+          "sourceKind": "wechat-index"
+        }
+      ]
+    },
+    {
+      "id": "d5938762263e1cec0b94",
+      "title": "秦皇岛招聘 | 五险一金!秦皇岛维青医药有限公司高薪招聘!",
+      "source": "秦皇岛招聘",
+      "sourceKind": "wechat-index",
+      "employerCategory": "其他单位",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%8B%9B%E8%81%98%20%7C%20%E4%BA%94%E9%99%A9%E4%B8%80%E9%87%91!%E7%A7%A6%E7%9A%87%E5%B2%9B%E7%BB%B4%E9%9D%92%E5%8C%BB%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%AB%98%E8%96%AA%E6%8B%9B%E8%81%98!",
+      "publishedDate": "2024-03-26",
+      "firstSeenDate": "2026-07-30",
+      "deadline": null,
+      "status": "closed",
+      "match": "review",
+      "summary": "学历：专科及以上学历；专业：中药学",
+      "evidence": "秦皇岛招聘 | 五险一金!秦皇岛维青医药有限公司高薪招聘! 秦皇岛维青医药有限公司中药库管,中药学相关专业,30岁以下,专科及以上学历,应届毕业生优先,双休,五险一金,待遇面议电话...",
+      "fetchedAt": "2026-07-29T23:35:33.997Z",
+      "alternatives": [
+        {
+          "source": "秦皇岛招聘",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%8B%9B%E8%81%98%20%7C%20%E4%BA%94%E9%99%A9%E4%B8%80%E9%87%91!%E7%A7%A6%E7%9A%87%E5%B2%9B%E7%BB%B4%E9%9D%92%E5%8C%BB%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%AB%98%E8%96%AA%E6%8B%9B%E8%81%98!",
           "sourceKind": "wechat-index"
         }
       ]
@@ -317,7 +340,7 @@
       "match": "strict",
       "summary": "专业：中药学",
       "evidence": "河北港口集团有限公司港口医院招聘中药学专业人员 河北港口集团有限公司秦皇岛中西医结合医院(河北港口医院)因工作发展需要,公开招聘卫生专业技术人员19名,现将有关事项进行...",
-      "fetchedAt": "2026-07-29T12:32:50.017Z",
+      "fetchedAt": "2026-07-29T23:35:33.995Z",
       "alternatives": [
         {
           "source": "公众号",
@@ -790,7 +813,7 @@
       "match": "strict",
       "summary": "专业：中药学",
       "evidence": "秦皇岛港口医院招聘中医学、中药学、中西医临床医学等专业毕业生公告 港口医院因发展需要,公开招聘卫生专业技术人员37名,现将有关... 16603393026报名地址:秦皇岛市海港区东山街57号港口医院办...",
-      "fetchedAt": "2026-07-29T12:32:53.930Z",
+      "fetchedAt": "2026-07-29T23:35:37.965Z",
       "alternatives": [
         {
           "source": "公众号",
@@ -870,6 +893,11 @@
         {
           "source": "公众号",
           "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1785328376&ver=6872&signature=pBTortygjRuN5jdbyNE*xIZDpJNq8mNXAPQ7Lh4imNYfkgztgtPrwEV4M7Ies4qsO8y8nH-axNKPElpLkt3C-FIoCAFW202nVF3d7fMd4088ZmeCten1IkYyhTwuxiSz&new=1",
+          "sourceKind": "search-index"
+        },
+        {
+          "source": "公众号",
+          "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1785368140&ver=6873&signature=5OxobXm5Vnb*7ZLXSL4igoLjMzlJLqfLIH3fpcytEEeFxl4QQKL3xo4MIo5OBIgSk7asNODe92LBp3rogr5V2TbvRyJ6nVGSnnf5w7jLhLrYCVPNmnEuFoD85ToqofUS&new=1",
           "sourceKind": "search-index"
         }
       ],
